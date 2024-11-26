@@ -17,7 +17,7 @@ const createPrivateRoom = async (req,res) =>{
             participants: {$all: [firstId,secondId]},
             private:true
         })
-        //If chat exists return the existing room
+        //If room exists return the existing room
         if (room) return res.status(200).json(room)
         
         //create room
