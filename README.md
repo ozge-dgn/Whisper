@@ -12,6 +12,10 @@ npm install
 ```
 
 This will automatically download the packages needed 
+After download is finished start the client side
+```
+npm start
+```
 
 ## Server
 ```
@@ -20,6 +24,8 @@ npm install
 ```
 
 Change the atlas uri variable in the .env file to the url you will get from mongodb website
+After download and .env change is done start the project
+``node index.js``
 
 
 ## Socket
